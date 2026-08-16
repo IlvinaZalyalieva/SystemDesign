@@ -1,0 +1,71 @@
+{
+  "emp-001": {
+    "name": "Иван Петров",
+    "department": "Разработка",
+    "status": "active",
+    "access_policy": {
+      "allowed_gates": [
+        "gate-1",
+        "gate-2",
+        "gate-3"
+      ],
+      "working_hours": "08:00-20:00",
+      "restricted_zones": []
+    }
+  },
+  "emp-002": {
+    "name": "Мария Сидорова",
+    "department": "Маркетинг",
+    "status": "active",
+    "access_policy": {
+      "allowed_gates": [
+        "gate-1",
+        "gate-2"
+      ],
+      "working_hours": "09:00-18:00",
+      "restricted_zones": [
+        "lab-1"
+      ]
+    }
+  },
+  "emp-003": {
+    "name": "Алексей Иванов",
+    "department": "Безопасность",
+    "status": "inactive",
+    "access_policy": {
+      "allowed_gates": [],
+      "working_hours": "00:00-00:00",
+      "restricted_zones": [
+        "all"
+      ]
+    }
+  },
+  "emp-004": {
+    "name": "Елена Кузнецова",
+    "department": "HR",
+    "status": "active",
+    "access_policy": {
+      "allowed_gates": [
+        "gate-1",
+        "gate-2",
+        "gate-3"
+      ],
+      "working_hours": "08:30-17:30",
+      "restricted_zones": []
+    }
+  },
+  "emp-005": {
+    "name": "Дмитрий Смирнов",
+    "department": "Финансы",
+    "status": "active",
+    "access_policy": {
+      "allowed_gates": [
+        "gate-2"
+      ],
+      "working_hours": "10:00-19:00",
+      "restricted_zones": [
+        "server-room"
+      ]
+    }
+  }
+}
